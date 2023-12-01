@@ -88,12 +88,37 @@ $scin__color: #fcd9801a;
 }
 
 
+#about__main {
+    background-color: #F4F5F5;
+    h3 {
+        @extend %headeing3;
+        color: $dark-blue;
+        margin-bottom: 16px;
+        }
+    p {
+        @extend %body1 ;
+        color: $dark-blue;
+        margin-bottom: 96px;
+    }
+    img {
+        width: 100%;
+    }
+}
 
-
+.main__text {
+    padding: 96px 109px 96px 80px;
+}
 
 
 @media (min-width:960px) {
     #about__header {
+        display: flex;
+        gap: 54px;
+    }
+}
+
+@media (min-width:960px) {
+    .main__text {
         display: flex;
         gap: 54px;
     }

@@ -4,7 +4,13 @@
   line-height: 74px;
 }
 
-#about__header p {
+#about__main h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#about__main p, #about__header p {
   font-size: 16px;
   line-height: 28px;
 }
@@ -38,8 +44,35 @@
   width: 100%;
 }
 
+#about__main {
+  background-color: #F4F5F5;
+}
+#about__main h3 {
+  color: #282938;
+  margin-bottom: 16px;
+}
+#about__main p {
+  color: #282938;
+  margin-bottom: 96px;
+}
+#about__main img {
+  width: 100%;
+}
+
+.main__text {
+  padding: 96px 109px 96px 80px;
+}
+
 @media (min-width: 960px) {
   #about__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 54px;
+  }
+}
+@media (min-width: 960px) {
+  .main__text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
