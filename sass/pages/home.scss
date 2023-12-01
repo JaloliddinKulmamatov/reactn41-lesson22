@@ -1,0 +1,190 @@
+
+$royal_blue__color: #2405F2;
+$dark-blue: #282938;
+$grey: #F4F6FC;
+$yellow: #FCD980;
+$tint__blue: #1C1E53;
+$accent: #EEF4FA;
+$scin__color: #fcd9801a;
+
+%heading1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+%heading2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+%heading6 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+%body1 {  
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+%btn1 { 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: none;
+}
+
+%label1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+%label2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+
+
+
+header {
+    background-color: $tint__blue;
+    padding: 127px 0;
+    img {
+        width: 100%;
+    }
+}
+
+#home__header h1 {
+    color: #FFF;
+   @extend %heading1;
+   margin-bottom: 24px;
+}
+
+#home__header p {
+    @extend %body1;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.header__btn {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.header__btn button {
+    color: $tint__blue;
+    background-color: $yellow;
+    @extend %btn1;
+        transition: 0.5s;
+    
+
+    &:hover {
+        background-color: #FDE4A6;
+    }
+}
+
+.header__btn a {
+    color: #FFF;
+}
+
+#home__project {
+    padding: 60px 0 120px;
+    h2 {
+        @extend %heading2;
+        margin-bottom: 64px;
+    }
+    h6 {
+        @extend %heading6 ;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    p {
+        @extend %body1;
+        font-weight: 500;
+    }
+    a {
+       @extend %label2;
+       color: $yellow;
+    }
+}
+
+.project__left {
+    background-image: url(/assets/img/big__card.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.project__left__text {
+    padding: 312px 32px 76px 85px;
+    display: inline-block;
+    background-color: rgba(28, 30, 83, 0.42);
+}
+
+
+.projectr__1 h6{
+    @extend %heading6;
+    font-weight: 600;
+     margin-bottom: 10px;
+}
+
+
+.projectr__1 {
+    display: inline-block;
+    width: 100%;
+    background-image: url(/assets/img/card-2.png);
+    background-repeat: no-repeat;
+    padding: 130px 36px 45px 56px;
+    margin-bottom: 32px;
+
+    h6 {
+            @extend %heading6;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #fff;
+        }
+}
+
+.projectr__2 {
+    display: inline-block;
+}
+
+.projectr__2 img { 
+    width: 100%;
+}
+
+
+
+@media (min-width:980px) {
+    #home__header {
+        display: flex;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .project__main {
+        display: flex;
+        gap: 70px;
+    }
+    .project__left {
+       width: 50%;
+    }
+}
+
