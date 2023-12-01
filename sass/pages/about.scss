@@ -90,6 +90,7 @@ $scin__color: #fcd9801a;
 
 #about__main {
     background-color: #F4F5F5;
+    margin-bottom: 128px;
     h3 {
         @extend %headeing3;
         color: $dark-blue;
@@ -110,6 +111,11 @@ $scin__color: #fcd9801a;
 }
 
 
+#team {
+    background-color: $grey;
+    padding: 128px 0px;
+}
+
 @media (min-width:960px) {
     #about__header {
         display: flex;
@@ -121,5 +127,20 @@ $scin__color: #fcd9801a;
     .main__text {
         display: flex;
         gap: 54px;
+    }
+}
+
+@media (min-width:960px) {
+    #team {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-area: 64px;
+    }
+}
+@media (min-width:1200px) {
+    #team {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap:  32px;
     }
 }

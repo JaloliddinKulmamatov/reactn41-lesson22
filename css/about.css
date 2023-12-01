@@ -46,6 +46,7 @@
 
 #about__main {
   background-color: #F4F5F5;
+  margin-bottom: 128px;
 }
 #about__main h3 {
   color: #282938;
@@ -63,6 +64,11 @@
   padding: 96px 109px 96px 80px;
 }
 
+#team {
+  background-color: #F4F6FC;
+  padding: 128px 0px;
+}
+
 @media (min-width: 960px) {
   #about__header {
     display: -webkit-box;
@@ -77,5 +83,19 @@
     display: -ms-flexbox;
     display: flex;
     gap: 54px;
+  }
+}
+@media (min-width: 960px) {
+  #team {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-area: 64px;
+  }
+}
+@media (min-width: 1200px) {
+  #team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
   }
 }
