@@ -4,9 +4,15 @@
   line-height: 64px;
 }
 
-#blog__header p {
+.text__p, #blog__header p {
   font-size: 16px;
   line-height: 28px;
+}
+
+#blog__header a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
 }
 
 #blog__header {
@@ -24,10 +30,19 @@
 #blog__header p {
   font-weight: 500;
 }
+#blog__header a {
+  color: #2405F2;
+  text-align: center;
+}
 
 .header__text {
   display: inline-block;
 }
 .header__text img {
   width: 100%;
+  margin-bottom: 48px;
+}
+
+.text__p {
+  font-weight: 400;
 }

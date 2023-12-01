@@ -75,11 +75,22 @@ $scin__color: #fcd9801a;
         @extend %body1;
         font-weight: 500;
     }
+    a {
+        @extend %label1;
+        color: $royal_blue__color;
+        text-align: center;
+    }
 }
 
 .header__text {
     display: inline-block;
     img {
         width: 100%;
+        margin-bottom: 48px;
     }
+}
+
+.text__p {
+    @extend %body1;
+    font-weight: 400;
 }
