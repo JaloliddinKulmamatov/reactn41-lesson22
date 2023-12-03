@@ -1,6 +1,68 @@
 @import url(/sass/utils/_helpers.scss);
 @import url(/sass/utils/_variables.scss);
 
+$royal_blue__color: #2405F2;
+$dark-blue: #282938;
+$grey: #F4F6FC;
+$yellow: #FCD980;
+$tint__blue: #1C1E53;
+$accent: #EEF4FA;
+$scin__color: #fcd9801a;
+
+%heading1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+%heading2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+%headeing3 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+%heading6 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+%body1 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+%btn1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: none;
+}
+
+%label1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+%label2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
 #about__header {
     padding: 150px 0 140px 0;
     p {
@@ -27,6 +89,30 @@
     }
 }
 
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    background-color: $tint__blue !important;
+}
+
+.navbar * {
+    color: #fff !important;
+}
+
+.navbar *:hover {
+    color: #ddd;
+}
+
+.contact__btn {
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    padding: 16px 48px;
+}
 
 #about__main {
     background-color: #F4F5F5;

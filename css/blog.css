@@ -1,3 +1,5 @@
+@import url(/sass/utils/_helpers.scss);
+@import url(/sass/utils/_variables.scss);
 .blog__text h2, #blog__header h2 {
   font-size: 48px;
   font-weight: 600;
@@ -34,6 +36,31 @@
 #blog__header a {
   color: #2405F2;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #1C1E53 !important;
+}
+
+.navbar * {
+  color: #fff !important;
+}
+
+.navbar *:hover {
+  color: #ddd;
+}
+
+.contact__btn {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
 }
 
 .text__p {
