@@ -1,0 +1,75 @@
+@import url(/sass/utils/_helpers.scss);
+@import url(/sass/utils/_variables.scss);
+.contact__header h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.contact__header p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 18px 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.form-control {
+  padding: 18px 32px;
+  background-color: #F4F6FC;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 254px;
+  height: 64px;
+  padding: 15px 51px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 41px;
+  background: #282938;
+  border: none;
+}
+
+form {
+  background-color: #F4F6FC;
+  padding: 55px 77px 70px 77px;
+  border-radius: 12px;
+}
+
+header {
+  padding: 128px 0;
+}
+
+.contact__header {
+  text-align: center;
+}
+.contact__header h2 {
+  color: #282938;
+}
+.contact__header p {
+  margin-bottom: 64px;
+}

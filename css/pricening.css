@@ -1,0 +1,144 @@
+.accordion__left h2, .pricing__text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.accordion-item span {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.pricing__text p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.accordion__left p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+#pricing__start {
+  padding: 128px 0;
+}
+
+.pricing__text {
+  margin-bottom: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.pricing__text h2 {
+  color: #282938;
+}
+.pricing__text p {
+  font-weight: 600;
+  color: #282938;
+  opacity: 0.7;
+}
+
+.pricing__card {
+  width: 406px;
+  padding: 64px 48px;
+  border-radius: 12px;
+  background: #f4f6fc;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.pricing__header__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.pricing__header__card p {
+  color: #2405F2;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.card__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px 50px;
+  border: none;
+  border-radius: 41px;
+  font-size: 18px;
+  line-height: 32px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #282938;
+  color: #f4f6fc;
+}
+
+.pricing__card:hover {
+  background-color: #1c1e53;
+  color: #fff;
+}
+.pricing__card:hover button {
+  background-color: #FCD980;
+  color: #282938;
+}
+.pricing__card:hover .pricing__header__card p {
+  color: #FCD980;
+}
+
+#pricening__main {
+  padding-bottom: 128px;
+}
+
+.accordion__left h2 {
+  color: #282938;
+  margin-bottom: 16px;
+}
+.accordion__left p {
+  color: #2405F2;
+}
+
+.accordion-custom .accordion-button:after {
+  background-image: url(/assets/img/plus.svg);
+}
+.accordion-custom .accordion-button:not(.collapsed):after {
+  background-image: url(/assets/img/close.svg);
+}
+
+.accordion-item span {
+  color: #2405F2;
+  margin-right: 50px;
+}
+
+@media (min-width: 710px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1000px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 840px) {
+  #pricening__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 55px;
+  }
+}
+@media (min-width: 990px) {
+  .accordion-custom {
+    min-width: 70%;
+  }
+}
