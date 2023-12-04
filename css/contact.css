@@ -74,6 +74,10 @@ form {
   margin-bottom: 64px;
 }
 
+.navbar-toggler {
+  background-color: #2405F2;
+}
+
 a {
   text-decoration: none;
 }

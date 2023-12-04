@@ -46,6 +46,10 @@
   width: 100%;
 }
 
+.navbar-toggler {
+  background-color: #2405F2;
+}
+
 a {
   text-decoration: none;
 }

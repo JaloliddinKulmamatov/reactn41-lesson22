@@ -41,6 +41,10 @@ a {
   color: #ddd;
 }
 
+.navbar-toggler {
+  background-color: #2405F2;
+}
+
 .contact__btn {
   border-radius: 41px;
   border: 2px solid rgba(244, 246, 252, 0.2);
